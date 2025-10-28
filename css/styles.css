@@ -1,3 +1,16 @@
+:root {
+    --color-background-neutral-0: #ffffff;
+    --color-background-neutral-5: #f5f5f5;
+    --color-background-neutral-90: #000000;
+
+    --color-button-primary-50: #8F0101;
+    --color-button-primary-70: #B81515;
+
+    --color-text-neutral-80: #222222;
+    --color-text-neutral-0: #ffffff;
+}
+
+
 *{
     margin: 0;
     padding: 0;
