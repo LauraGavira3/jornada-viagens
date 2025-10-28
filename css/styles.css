@@ -12,30 +12,30 @@
 
     /* TIPOGRAFIA */
 
-   /* Família */
-  --font-family-primary: "Montserrat", sans-serif;
+    /* Família */
+    --font-family-primary: "Montserrat", sans-serif;
 
-  /* Tamanhos */
-  --font-size-xs: 0.75rem;   /* 12px - labels, legendas */
-  --font-size-sm: 0.875rem;  /* 14px - texto secundário */
-  --font-size-b: 1rem;    /* 16px - texto padrão */
-  --font-size-m: 1.125rem;  /* 18px - parágrafo grande */
-  --font-size-l: 1.25rem;   /* 20px - subtítulos */
-  --font-size-xl: 1.5rem;    /* 24px - títulos médios */
-  --font-size-2xl: 2rem;     /* 32px - títulos grandes */
-  --font-size-3xl: 2.5rem;   /* 40px - destaques */
-  --font-size-4xl: 3rem;     /* 48px - hero */
+    /* Tamanhos */
+    --font-size-xs: 0.75rem;    /* 12px - labels, legendas */
+    --font-size-sm: 0.875rem;   /* 14px - texto secundário */
+    --font-size-b: 1rem;        /* 16px - texto padrão */
+    --font-size-m: 1.125rem;    /* 18px - parágrafo grande */
+    --font-size-l: 1.25rem;     /* 20px - subtítulos */
+    --font-size-xl: 1.5rem;     /* 24px - títulos médios */
+    --font-size-2xl: 2rem;      /* 32px - títulos grandes */
+    --font-size-3xl: 2.5rem;    /* 40px - destaques */
+    --font-size-4xl: 3rem;      /* 48px - hero */
 
-   /* Pesos */
-  --font-weight-regular: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --font-weight-extrabold: 800;
+    /* Pesos */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
