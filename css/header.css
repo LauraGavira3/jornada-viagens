@@ -14,7 +14,13 @@ header {
 }
 
 nav {
-    display: none;
+  display: none;
+}
+
+nav.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .navegation-menu {
