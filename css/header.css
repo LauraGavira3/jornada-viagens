@@ -41,4 +41,33 @@ nav.active {
     color: var(--color-background-neutral-0);
     text-decoration: none;
     font-family: var(--font-family-primary);
+    font-size: var(--font-size-xl);
 }
+
+@media screen and (min-width:768px) {
+
+  .navegation-menu img {
+      display: none; 
+  }
+
+  .navegation-menu {
+      margin-top: 0;
+      width: 467px;
+  }
+
+  .navegation-menu nav {
+      display: block;
+  }
+
+  .navegation-menu ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+  }
+
+  .navegation-link li {
+    margin: 0;
+}
+}
+
