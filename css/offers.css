@@ -13,6 +13,8 @@
     display: block;
     background: transparent;
     position: static;
+    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 .card header p {
