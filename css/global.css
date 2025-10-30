@@ -1,37 +1,57 @@
 :root {
-    /* CORES */
-    --color-background-neutral-0: #ffffff;
-    --color-background-neutral-5: #f5f5f5;
-    --color-background-neutral-90: #000000;
+  /* CORES */
+  --color-background-neutral-0: #ffffff;
+  --color-background-neutral-5: #f5f5f5;
+  --color-background-neutral-90: #000000;
 
-    --color-button-primary-50: #8F0101;
-    --color-button-primary-70: #B81515;
+  --color-button-primary-50: #B81515;
+  --color-button-primary-70: #8F0101;
 
-    --color-text-neutral-80: #222222;
-    --color-text-neutral-0: #ffffff;
+  --color-text-neutral-80: #222222;
+  --color-text-neutral-0: #ffffff;
 
-    /* TIPOGRAFIA */
+  /* TIPOGRAFIA */
 
-    /* Família */
-    --font-family-primary: "Montserrat", sans-serif;
+  /* Família */
+  --font-family-primary: "Montserrat", sans-serif;
 
-    /* Tamanhos */
-    --font-size-xs: 0.75rem;    /* 12px - labels, legendas */
-    --font-size-sm: 0.875rem;   /* 14px - texto secundário */
-    --font-size-b: 1rem;        /* 16px - texto padrão */
-    --font-size-m: 1.125rem;    /* 18px - parágrafo grande */
-    --font-size-l: 1.25rem;     /* 20px - subtítulos */
-    --font-size-xl: 1.5rem;     /* 24px - títulos médios */
-    --font-size-2xl: 2rem;      /* 32px - títulos grandes */
-    --font-size-3xl: 2.5rem;    /* 40px - destaques */
-    --font-size-4xl: 3rem;      /* 48px - hero */
+  /* Tamanhos */
+  --font-size-xs: 0.75rem;
+  /* 12px - labels, legendas */
 
-    /* Pesos */
-    --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
-    --font-weight-extrabold: 800;
+  --font-size-sm: 0.875rem;
+  /* 14px - texto secundário */
+
+  --font-size-b: 1rem;
+  /* 16px - texto padrão */
+
+  --font-size-m: 1.125rem;
+  /* 18px - parágrafo grande */
+
+  --font-size-l: 1.25rem;
+  /* 20px - subtítulos */
+  
+  --font-size-xl: 1.5rem;
+  /* 24px - títulos médios */
+
+  --font-size-2xl: 1.75rem;
+  /* 28px - título intermediário */
+
+  --font-size-3xl: 2rem;
+  /* 32px - títulos grandes */
+
+  --font-size-4xl: 2.5rem;
+  /* 40px - destaques */
+
+  --font-size-5xl: 3rem;
+  /* 48px - hero */
+
+  /* Pesos */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
 }
 
 
@@ -52,9 +72,37 @@ button {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden; /* evita scroll lateral */
+  overflow-x: hidden;
+  /* evita scroll lateral */
+}
+
+body {
+  font-family: var(--font-family-primary);
+  color: var(--color-text-neutral-80);
+}
+
+.section-title h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--color-button-primary-50);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media screen and (min-width:768px) {
+  .section-title h2 {
+    font-size: var(--font-size-3xl);
+  }
 }
