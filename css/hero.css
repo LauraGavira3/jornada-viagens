@@ -6,6 +6,15 @@
     background-size: cover;
 }
 
+.hero h2 {
+    padding: 64px 24px;
+    margin: 0;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-l);
+    text-align: center;
+    line-height: 2rem;
+}
+
 @media screen and (min-width:768px) {
     .hero-img {
         height: 620px;
@@ -13,6 +22,14 @@
         background-image: url(../img/banner-tablet.png);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .hero h2 {
+        padding: 88px 60px;
+        margin: 0;
+        font-weight: var(--font-weight-regular);
+        font-size: var(--font-size-2xl);
+        line-height: 150%;
     }
 }
 
@@ -23,5 +40,15 @@
         background-image: url(../img/banner-desktop.png);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .hero h2 {
+        padding: 88px 120px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .hero h2 {
+        padding: 88px 160px;
     }
 }
