@@ -1,0 +1,104 @@
+.offers-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.card {
+    color: var(--color-text-neutral-0);
+    background-color: black;
+    width: 312px;
+    height: 288px;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.card header {
+    display: block;
+    background: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.card header p {
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-regular);
+}
+
+.card header h3 {
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-bold);
+    margin: 8px 0 0;
+}
+
+.card header span {
+    font-size: var(--font-size-3xl);
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.card.japao {
+    background: url(../img/bg-card-japao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.san-andreas {
+    background: url(../img/bg-card-san-andreas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.paraiba {
+    background: url(../img/bg-card-paraiba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.manaus {
+    background: url(../img/bg-card-manaus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:768px) {
+    .offers-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 420px;
+        height: 308px;
+    }
+
+    .card header h3 {
+        font-size: var(--font-size-5xl);
+    }
+
+    .card header span {
+        font-size: var(--font-size-4xl);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .offers-cards .card {
+        width: 588px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .offers-cards {
+        width: 1250px;
+        margin: 0 auto;
+    }
+}
