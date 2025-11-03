@@ -46,7 +46,6 @@
 
 .destinations .button {
     width: 100%;
-    text-align: center;
 }
 
 @media screen and (min-width:768px) {
@@ -62,6 +61,11 @@
     .destinations .card.tokyo .img-card {
         background: url(../img/Tokyo-tablet.jpg);
         background-size: cover;
+    }
+
+    .destinations .button {
+        width: 280px;
+        text-align: center;
     }
 
     .destinations .card.osaka .img-card {
