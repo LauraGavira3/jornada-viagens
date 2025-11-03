@@ -1,0 +1,106 @@
+.destinations {
+    width: 312px;
+    margin: 88px auto;
+}
+
+.destinations-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.destinations .card header {
+    display: block;
+    background: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.destinations .card .img-card {
+    width: 100%;
+    height: 368px;
+}
+
+.destinations .card.tokyo .img-card {
+    background: url(../img/Tokyo-mobile.jpg);
+    background-size: cover;
+}
+
+.destinations .card.osaka .img-card {
+    background: url(../img/Osaka-desktop.jpg);
+    background-size: cover;
+}
+
+.destinations .card header h4 {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    margin: 8px 0 0;
+}
+
+.destinations .card p {
+    font-size: var(--font-size-l);
+    margin-bottom: 24px;
+}
+
+.destinations .button {
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .destinations {
+        width: 648px;
+    }
+
+    .destinations .card .img-card {
+        width: 100%;
+        height: 452px;
+    }
+
+    .destinations .card.tokyo .img-card {
+        background: url(../img/Tokyo-tablet.jpg);
+        background-size: cover;
+    }
+
+    .destinations .button {
+        width: 280px;
+        text-align: center;
+    }
+
+    .destinations .card.osaka .img-card {
+        background: url(../img/Osaka-tablet.jpg);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .destinations {
+        width: 900px;
+    }
+
+    .destinations .card .img-card {
+        width: 100%;
+        height: 452px;
+    }
+
+    .destinations .card.tokyo .img-card {
+        background: url(../img/Tokyo-desktop.jpg);
+        background-size: cover;
+    }
+
+    .destinations .card.osaka .img-card {
+        background: url(../img/Osaka-desktop.jpg);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .destinations {
+        width: 1200px;
+    }
+
+    .destinations-cards {
+        flex-direction: row;
+    }
+}
