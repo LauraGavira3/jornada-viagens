@@ -22,11 +22,6 @@
     color: var(--color-text-neutral-80);
 }
 
-.categories-cards .card h3 {
-    font-size: var(--font-size-2xl);
-    font-weight: var(--font-weight-bold);
-}
-
 .categories-cards .card.single-line {
     padding-top: 50px;
 }
@@ -48,7 +43,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .categories-cards .card {
+    .categories-cards a.card {
         width: 430px;
     }
 }
