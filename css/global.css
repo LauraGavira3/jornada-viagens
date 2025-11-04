@@ -117,6 +117,18 @@ section.bottom-hero {
   margin: 16px auto 32px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--font-weight-bold);
+  margin: 0 0 24px;
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--font-weight-regular);
+  line-height: 32px;
+}
+
 .button {
   min-width: 280px;
   width: 280px;
