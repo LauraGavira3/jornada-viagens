@@ -86,6 +86,22 @@ body {
   color: var(--color-text-neutral-80);
 }
 
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
+section.hero,
+section.bottom-hero {
+  width: 100%;
+  margin: 0;
+}
+
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
+
 .section-title h2 {
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
@@ -117,13 +133,31 @@ body {
 }
 
 @media screen and (min-width:768px) {
+  section {
+    width: 648px;
+  }
+
+  .section-title {
+    width: 100%;
+  }
+
   .section-title h2 {
     font-size: var(--font-size-3xl);
   }
 }
 
 @media screen and (min-width:1024px) {
+  section {
+    width: 900px;
+  }
+
   .button:hover {
     background-color: var(--color-button-primary-70);
+  }
+}
+
+@media screen and (min-width:1440px) {
+  section {
+    width: 1200px;
   }
 }

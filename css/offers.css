@@ -1,3 +1,7 @@
+.offers {
+    margin-bottom: 104px;
+}
+
 .offers-cards {
     display: flex;
     flex-direction: column;
@@ -90,7 +94,7 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1440px) {
     .offers-cards .card {
         width: 588px;
     }
@@ -99,6 +103,6 @@
 @media screen and (min-width: 1920px) {
     .offers-cards {
         width: 1250px;
-        margin: 0 auto;
+        margin: auto;
     }
 }
