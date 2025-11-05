@@ -28,7 +28,7 @@
     background-size: cover;
 }
 
-.destinations .card header h4 {
+.destinations .card header h3 {
     font-size: var(--font-size-2xl);
     font-weight: var(--font-weight-bold);
     margin: 8px 0 0;
