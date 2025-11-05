@@ -36,10 +36,6 @@ nav.active {
     margin: 24px 0;
 }
 
-.navegation-link {
-    margin-top: 0.5rem;
-}
-
 .navegation-link li {
     list-style: none;
     margin: 0.5rem 0;
@@ -84,7 +80,7 @@ nav.active {
 }
 
 @media screen and (min-width:1024px) {
-    header {
+    .main-header {
         padding: 38px 125px;
     }
 
@@ -103,7 +99,7 @@ nav.active {
 }
 
 @media screen and (min-width:1920px) {
-    header {
+    .main-header {
         padding: 38px 160px;
     }
 }
