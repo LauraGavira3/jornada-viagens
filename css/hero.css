@@ -28,7 +28,7 @@
 /* PACOTES DE VIAGENS */
 .travel-packages .hero-img {
     height: 460px;
-    background: url(../img/hero-pacotes-mobile.png);
+    background: url(../img/travel-packages/hero-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,7 +84,7 @@
     /* PACOTES DE VIAGENS */
     .travel-packages .hero-img {
         height: 460px;
-        background: url(../img/hero-pacotes-tablet.png);
+        background: url(../img/travel-packages/hero-tablet.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -118,7 +118,7 @@
     /* PACOTES DE VIAGENS */
     .travel-packages .hero-img {
         height: 460px;
-        background: url(../img/hero-pacotes-desktop.png);
+        background: url(../img/travel-packages/hero-desktop.png);
         background-repeat: no-repeat;
         background-size: cover;
     }

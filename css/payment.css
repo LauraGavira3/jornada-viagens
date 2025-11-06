@@ -29,6 +29,35 @@
     grid-column: span 2;
 }
 
+/* PACOTES DE VIAGENS */
+.travel-packages .content-container h3 {
+    font-size: var(--font-size-4xl);
+    margin: 0;
+}
+
+.travel-packages .content-container h4 {
+    font-size: var(--font-size-2xl);
+    margin: 24px 0;
+}
+
+.travel-packages .content-container .image-gallery .image.first {
+    background: url(../img/travel-packages/payment1-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.travel-packages .content-container .image-gallery .image.second {
+    background: url(../img/travel-packages/payment2-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.travel-packages .content-container .image-gallery .image.third {
+    background: url(../img/travel-packages/payment3-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @media screen and (min-width: 768px) {
     .payments .content-container .image-gallery .image.first {
         background: url(../img/payment-japão1-tablet.png);
@@ -47,6 +76,25 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    /* PACOTES DE VIAGENS */
+    .travel-packages .content-container .image-gallery .image.first {
+        background: url(../img/travel-packages/payment1-tablet.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .travel-packages .content-container .image-gallery .image.second {
+        background: url(../img/travel-packages/payment2-tablet.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .travel-packages .content-container .image-gallery .image.third {
+        background: url(../img/travel-packages/payment3-tablet.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 @media screen and (min-width:1440px) {
@@ -62,5 +110,24 @@
     .payments .content-container .image-gallery {
         width: 790px;
         margin: 0;
+    }
+
+    /* PACOTES DE VIAGENS */
+    .travel-packages .content-container .image-gallery .image.first {
+        background: url(../img/travel-packages/payment1-desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .travel-packages .content-container .image-gallery .image.second {
+        background: url(../img/travel-packages/payment2-desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .travel-packages .content-container .image-gallery .image.third {
+        background: url(../img/travel-packages/payment3-desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
