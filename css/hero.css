@@ -25,6 +25,38 @@
     line-height: 2rem;
 }
 
+/* PACOTES DE VIAGENS */
+.travel-packages .hero-img {
+    height: 460px;
+    background: url(../img/hero-pacotes-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.travel-packages .hero-content {
+    padding: 65px 24px;
+    width: 312px;
+}
+
+.travel-packages .hero-img .hero-content h1 {
+    font-size: var(--font-size-4xl);
+    color: var(--color-text-neutral-0);
+}
+
+.travel-packages .hero-img .hero-content p {
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-text-neutral-0);
+}
+
+.travel-packages .hero-img .hero-content hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--color-primary-50);
+    border: none;
+    margin: 16px 0 32px;
+}
+
 @media screen and (min-width:768px) {
     .hero .hero-img {
         height: 620px;
@@ -48,6 +80,19 @@
         font-size: var(--font-size-3xl);
         line-height: 150%;
     }
+
+    /* PACOTES DE VIAGENS */
+    .travel-packages .hero-img {
+        height: 460px;
+        background: url(../img/hero-pacotes-tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .travel-packages .hero-content {
+        padding: 120px 70px;
+        width: 579px;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -69,6 +114,21 @@
     .hero h2 {
         padding: 88px 120px;
     }
+
+    /* PACOTES DE VIAGENS */
+    .travel-packages .hero-img {
+        height: 460px;
+        background: url(../img/hero-pacotes-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .travel-packages .hero-img .hero-content h1 {
+        font-size: var(--font-size-4xl);
+        color: var(--color-text-neutral-0);
+    }
+
+
 }
 
 @media screen and (min-width:1920px) {
