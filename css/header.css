@@ -52,6 +52,11 @@ nav.active {
     color: var(--color-button-primary-70);
 }
 
+/* PACOTE DE VIAGENS */
+.navegation-link a.active {
+    text-decoration: underline;
+}
+
 @media screen and (min-width:768px) {
 
     .navegation-menu img {
